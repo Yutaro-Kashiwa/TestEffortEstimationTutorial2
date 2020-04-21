@@ -26,6 +26,11 @@ public class Calculator {
         }
         this.answer/=x;
     }
+    public void power(){
+        if (answer==null) return;//ignore
+        answer *= answer;
+    };
+
     public Double getAnswer(){
         return answer;
     }
